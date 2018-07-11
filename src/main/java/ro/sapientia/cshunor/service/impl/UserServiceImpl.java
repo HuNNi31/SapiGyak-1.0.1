@@ -19,4 +19,10 @@ public class UserServiceImpl implements UserService{
 		List<UserPojo> studentList = UserService.findByName();
 		return UserList;
 	}
+
+	@Override
+	public List<UserPojo> getUsertByName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

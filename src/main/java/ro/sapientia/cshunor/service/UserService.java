@@ -12,4 +12,6 @@ public interface UserService {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	List<UserPojo> getUserByName();
 }
